@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>survey form</title>
+    <link rel="stylesheet" href="surveyform.css">
+</head>
+<body>
+    
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <form id="survey-form">
+        <label for="name" id="name-label">Name</label>
+        <input type="text" id="name" name="name" placeholder="Name" required>
+        <br>
+        <label for="email" id="email-label">Email</label>
+        <input type="email" id="email" name="email" placeholder="Email" required>
+        <br>
+        <label for="number" id="number-label">number</label>
+        <input type="number" id="number" min="18" max="100" placeholder="age" required>
+        <br>
+        <br>
+        <label for="dropdown" >What is your favorite feature of freeCodeCamp?</label>
+        <br> 
+            <select name="dropdown" id="dropdown">
+                <option value="challenges">challenges</option>
+                <option value="project">project</option>
+                <option value="community">community</option>
+                <option value="open source">open source</option>
+            </select>
+            <br>
+            <br>
+        
+        <label for="options">Would you recommend freeCodeCamp to a friend?</label>
+        <br>
+        <input type="radio" name="level" id="definitely" value="definitely">
+        <label for="definitely">definitely</label>
+            
+        <br>
+            
+        <input type="radio" name="level" id="maybe" value="maybe">
+        <label for="maybe">maybe</label>
+            
+        <br>
+            
+        <input type="radio" name="level" id="not sure" value="not sure">
+        <label for="not sure">not sure</label>
+            
+        <br>
+        <br>
+        
+       
+        <label for="checkbox">What would you like to see improved? (Check all that apply)</label>
+        <br>
+        <input type="checkbox" id="value1" name="value1" value="front-endprojects" >
+        <label for="value1">Front-end projects</label>
+        <br>
+        <input type="checkbox" id="value2" name="value2" value="Back-end developer" >
+        <label for="value2">Back-end developer</label>
+         <br>       
+        <input type="checkbox" id="value3" name="value3" value="Data visualization" >
+        <label for="value3">Data visualization</label>
+        <br>
+        <input type="checkbox" id="value4" name="value4" value="videos" >
+        <label for="value4">videoss</label>
+        <br>
+        <input type="checkbox" id="value5" name="value5" value="viki" >
+        <label for="value5">viki</label>
+        <br>
+        <br>
+        <label for="review">Any comments or suggestions?</label>
+        <br>
+        <textarea id="review" name="review" rows="10" cols="50" placeholder="enter your comments here..."></textarea>
+        <br>
+        <button type="submit" id="submit">submit</button>
+
+
+
+    </form>
+</body>
+</html>

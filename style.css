@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(255, 191, 0);
+    font-family: sans-serif;
+    
+}
+h1 {
+    text-align: center;
+}
+p {
+    height: 200px;
+    text-align: center;
+}
+#image{
+    height: 300px;
+    border: 10px solid rosybrown;
+}
+#video {
+    border: 5px solid red;
+}
+p{
+    background-color: black;
+    
+}
+.grid-container{
+    background-color: rgb(255, 255, 255);
+    display: grid
+    
+    
+}
+
+.container-item{
+    font-size: 25px;
+    text-align: center;
+    width: 50px;
+    margin: 10px;
+    grid-template-columns: auto auto auto;
+    
+
+    
+}
