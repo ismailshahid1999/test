@@ -4,59 +4,60 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/14bafee3ac.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="portfolio.css">
+    
     <title>Document</title>
+   
 </head>
 <body>
-    <h1>Hello World</h1>
-    <p style="color: rgb(255, 191, 0)"><b>Lorem</b> ipsum dolor sit amet consectetur adipisicing elit. Ratione delectus nobis fugit minus alias ad amet corporis illo, quia, sequi et incidunt pariatur commodi quae, quod ullam adipisci? Illo, amet.</p>
-    <img src="https://i1.wp.com/godofindia.com/wp-content/uploads/2017/09/gud-evening.jpg" alt="good picture" id = "image">
-    <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/EfbS25LbQ_k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <ul style="list-style-type:square;">
-        <caption><h3>list of fruits</h3></caption>
-        <li>apple</li>
-        <li>orange</li>
-        <li>grape</li>
-    </ul>
-    <ol>
-        <caption><h2>list of numbers</h2></caption>
-        <li>one</li>
-        <li>two</li>
-        <li>three</li>
-    </ol>
-    <table>
-        <thead>
-            <tr>
-                <th>num1</th>
-                <th>num2</th>
-                <th>num3</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>one</td>
-                <td>two</td>
-                <td>three</td>
-            </tr>
-            <tr>
-                <td>four</td>
-                <td>five</td>
-                <td>six</td>
-            </tr>
-        </tbody>
-    </table>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
-    <div class="grid-container">
-        <div class="container-item" style="background-color: blue;">1</div>
-        <div class="container-item" style="background-color: rgb(0, 255, 0);">2</div>
-        <div class="container-item" style="background-color: rgb(0, 225, 255);">3</div>
-        <div class="container-item" style="background-color: rgb(255, 0, 212);">4</div>
-        <div class="container-item" style="background-color: rgb(255, 0, 13);">5</div>        
-        <div class="container-item" style="background-color: rgb(23, 23, 26);">6</div>
-
-
+    <nav id="navbar">
+        <div class="container">
+            <ul>
+                <a href="#welcome-section">About</a>
+                <a href="#projects">Work</a>
+                <a href="#profile-link">Contact</a>
+            </ul>
+        </div>
+    </nav>
+    
+    <div>
+        <section id="welcome-section">
+            <h1>Hey I am Ismail</h1>
+            <p>a web developer</p>
+        </section>
     </div>
 
+    <div>
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="cards">
+                <div class="card">
+                    <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg" alt="">
+                    <p>Tribute page</p>
+                </div>
 
+                <div class="card">
+                    <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/random-quote-machine.png" alt="">
+                    <p>Random Quote Machine</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div id="profile-link">
+        <h2>Let's work together</h2>
+        <p>How do you take your coffee?</p>
+        <div class="link">
+            <ul>
+                <li><a href="#facebook"><i class="fa-brands fa-facebook">facebook</i></a></li>
+                <li><a href="#twitter"><i class="fa-brands fa-twitter">twitter</i></a></li>
+                <li><a href="#instagram"><i class="fa-brands fa-instagram">instagram</i></a></li>
+                <li><a href="#freecodecamp"><i class="fa-brands fa-free-code-camp">fcc</i></a></li>
+            </ul>
+        </div>
+    </div>
 </body>
 </html>
